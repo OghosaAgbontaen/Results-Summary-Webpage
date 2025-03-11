@@ -12,7 +12,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [The challenge](#the-challenge)
   - [Links](#links)
   - [Built with](#built-with)
-    - [Continued development]
+  - [Continued development]
 - [Author](#author)
 
 ## Overview
