@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFont;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+body{
+    font-family: myFont;
+    background-color:  hsl(221, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    margin: 40px;
+}
+.box1,.box2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(108, 64, 229)20%,  hsl(234, 74%, 56%)100%);
+
+    z-index: 2;
+    right: 170px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.text1{
+    color:  hsl(241, 100%, 89%);
+    font-size: 20px;
+    margin-top: 0px;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(25, 46, 150, 0.533), rgba(52, 152, 219, 0));
+    padding: 30px;
+}
+.text2{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.text3{
+    color:  hsl(241, 100%, 89%);
+    font-size: 14px;
+}
+.text4{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.text5{
+    color:  hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+.box2{
+    background-color: white;
+    z-index: 1;
+    left: 170px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.content{
+    margin: 0;
+}
+.text6{
+    margin:20px;
+    font-weight: bolder;
+    font-size: 25px;
+
+
+}
+.bar2,.bar3,.bar4{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+.bar1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 15px;
+    background-color: hsl(0, 50%, 91%);
+    border-radius: 15px;
+    margin: 20px;
+}
+.text7{
+    color:  hsl(0, 100%, 67%);
+    font-weight: bold;
+}
+.text7::before{
+    content:"" ;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(assets/images/icon-reaction.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    vertical-align: middle;
+
+}
+.bar2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 15px;
+    background-color: hsl(38, 73%, 90%);
+    border-radius: 15px;
+    margin: 20px;
+}
+.text8{
+    color: hsl(39, 100%, 56%);
+    font-weight: bold;
+}
+.text8::before{
+    content:"" ;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(assets/images/icon-memory.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.bar3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 15px;
+    background-color: hsl(167, 48%, 89%);
+    border-radius: 15px;
+    margin: 20px;
+}
+.text10{
+    color: hsl(166, 100%, 37%);
+    font-weight: bold;
+}
+.text10::before{
+    content:"" ;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(assets/images/icon-verbal.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.bar4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 15px;
+    background-color: hsl(235, 66%, 90%);
+    border-radius: 15px;
+    margin: 20px;
+}
+.text12{
+    color: hsl(234, 85%, 45%);
+    font-weight: bold;
+}
+.text12::before{
+    content:"" ;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(assets/images/icon-visual.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.text14,.text9,.text11,.text13{
+    color: hsl(241, 100%, 89%);
+}
+.bar5{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(224, 30%, 27%);
+    width: 3R0px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 30px;
+}
+.bar5:hover{
+    background-color: rgb(103, 56, 231);
+    cursor: pointer;
+}
+.text15{
+    display: flex;
+    align-items: center;
+    color:hsl(0, 0%, 100%);
+    font-size: 17px;
+}
+@media (max-width: 600px) {
+    body {
+        height: auto; 
+        margin-top: 0px; 
+    }
+
+    .box {
+        flex-direction: column; 
+        width: 480px; 
+        height: 930px;
+        margin:  0; 
+        margin-bottom: 5px;
+    }
+
+    .box1, .box2 {
+        position: static; 
+        width: 90%; 
+        border-radius: 25px; 
+    }
+
+    .box1 {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        padding: 15px;
+        height: 60%;
+    }
+
+    .box2 {
+       border-radius: 0px;
+        padding: 15px;
+    }
+
+    .main1 {
+        width: 120px; 
+        height: 120px;
+        padding: 20px;
+    }
+
+    .bar1, .bar2, .bar3, .bar4, .bar5 {
+        width: 90%;
+        margin: 30px auto; 
+    }
+
+    .text2 {
+        font-size: 50px; 
+    }
+
+    .text4 {
+        font-size: 25px;
+    }
+
+    .text6 {
+        font-size: 22px;
+    }
+
+    .bar5 {
+        height: auto;
+        padding: 15px;
+    }
+
+    .text15 {
+        font-size: 15px;
+        text-align: center;
+    }
+}
